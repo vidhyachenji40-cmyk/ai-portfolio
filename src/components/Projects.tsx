@@ -10,7 +10,7 @@ const projects = [
       "Production polling loop runs every 60 seconds with zero human intervention",
       "LangChain + Anthropic Claude multi-agent architecture",
     ],
-    stack: ["Python", "LangGraph", "LangChain", "Gemini 2.0 Flash", "AWS Bedrock", "SQLite", "Anthropic Claude"],
+    stack: ["Python", "LangGraph", "LangChain", "Anthropic Claude", "SQLite"],
     type: "Open Source",
     accent: "#38bdf8",
     github: "https://github.com/vidhyachenji40-cmyk/",
