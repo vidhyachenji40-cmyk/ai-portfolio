@@ -36,7 +36,7 @@ const experiences = [
     location: "San Jose, CA",
     type: "Java",
     bullets: [
-      "Led migration from C++ to Java for the Account Lifecycle Platform, modernizing core backend services processing 10M+ daily transactions",
+      "Contributed migration from C++ to Java for the Account Lifecycle Platform, modernizing core backend services processing 10M+ daily transactions",
       "Developed and maintained REST APIs for account lifecycle and payment workflows with comprehensive unit testing coverage",
     ],
     stack: ["Java", "Spring Boot", "REST APIs", "C++", "Unit Testing"],
