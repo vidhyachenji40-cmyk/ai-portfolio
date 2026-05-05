@@ -8,7 +8,7 @@ const projects = [
       "Self-healing SQL error detection and auto-recovery via agent loops",
       "Genre-aware content generation — personalizes tone per customer archetype",
       "Production polling loop runs every 60 seconds with zero human intervention",
-      "AWS Bedrock + Gemini 2.0 Flash dual-model architecture",
+      "LangChain + Anthropic Claude multi-agent architecture",
     ],
     stack: ["Python", "LangGraph", "LangChain", "Gemini 2.0 Flash", "AWS Bedrock", "SQLite", "Anthropic Claude"],
     type: "Open Source",
