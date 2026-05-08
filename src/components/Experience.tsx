@@ -7,10 +7,10 @@ const experiences = [
     location: "Remote",
     type: "AI",
     bullets: [
-      "Deployed HIPAA-aligned Generative AI on GCP Vertex AI and Gemini APIs, automating healthcare data mapping workflows and reducing manual effort by 30%",
-      "Designed end-to-end Python RAG pipelines and LangGraph agentic workflows with vector embeddings (Pinecone, ChromaDB) to handle complex NCPDP claim transformations",
-      "Built LangGraph agent pipelines with LLM observability via LangSmith — monitoring accuracy, detecting hallucinations, and ensuring production reliability",
-      "Engineered Kafka-based event-driven Java microservices on Azure AKS/WCNP for high-volume prescription processing within the Billing Order Management platform",
+      "Contributed to HIPAA-aligned Generative AI solutions on GCP Vertex AI and Gemini APIs, supporting healthcare data mapping automation within the Billing Order Management (BOM) team",
+      "Contributed to Python RAG pipelines and LangGraph agentic workflows with vector embeddings (Pinecone, ChromaDB) to handle complex NCPDP claim transformations",
+      "Worked on Python-based LangGraph agent pipelines — automatically mapping healthcare data fields, detecting errors and validating claim accuracy monitored via LangSmith observability",
+      "Developed Java microservices processing real-time pharmacy prescription claims within the Billing Order Management (BOM) platform using Kafka event-driven architecture on Azure AKS/WCNP",
     ],
     stack: ["Python", "GCP Vertex AI", "Gemini APIs", "LangChain", "LangGraph", "LangSmith", "Kafka", "Java 17", "Cosmos DB", "Kubernetes"],
   },
@@ -26,7 +26,7 @@ const experiences = [
       "Managed zero-downtime deployments via Azure DevOps CI/CD pipelines with Maven build tooling",
       "Explored LLM-assisted workflow automation for financial process acceleration",
     ],
-    stack: ["Java", "Spring Boot", "REST APIs", "Azure DevOps", "Maven", "SQL Server"],
+    stack: ["Java", "Spring Boot", "REST APIs", "Azure DevOps", "Jenkins", "Maven", "SQL Server"],
   },
   {
     role: "Java Backend Developer",
@@ -65,7 +65,7 @@ const experiences = [
     bullets: [
       "Automated backend banking processes and financial reporting modules using Java/J2EE with REST service integrations and SQL validation scripts",
     ],
-    stack: ["Java", "J2EE", "SQL", "PL/SQL", "REST APIs"],
+    stack: ["Java", "J2EE", "SQL", "SQL", "REST APIs"],
   },
 ];
 
