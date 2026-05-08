@@ -35,9 +35,9 @@ const projects = [
     id: "03",
     name: "Walmart BOM AI Pipeline",
     subtitle: "HIPAA-Aligned Healthcare Automation",
-    desc: "Enterprise Generative AI solution deployed on GCP Vertex AI for healthcare data mapping automation at Walmart Health & Wellness. LangGraph agents orchestrate complex prescription claim transformations compliant with NCPDP Telecom Standard (D0/F6), with full LLM observability and hallucination detection via LangSmith.",
+    desc: "Contributed to an enterprise HIPAA-aligned AI platform at Walmart Health & Wellness. Python-based LangGraph agents automatically map complex healthcare data fields, detect errors and validate claim accuracy within the Billing Order Management (BOM) team — monitored via LangSmith observability with full hallucination detection.",
     impact: [
-      "30% reduction in manual healthcare data processing effort",
+      "Contributed to HIPAA-aligned AI architecture reducing manual healthcare data processing effort",
       "HIPAA-aligned and NCPDP Telecom Standard (D0/F6) compliant",
       "LangSmith tracing monitors agent accuracy and detects hallucinations",
       "Kafka event-driven pipeline handling high-volume prescription claims",
