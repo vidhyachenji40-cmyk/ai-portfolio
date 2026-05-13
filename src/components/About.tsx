@@ -49,13 +49,13 @@ export default function About() {
               <span className="text-gradient">gone deep on AI</span>
             </h2>
             <p className="font-body mb-5" style={{ color: "var(--muted)", fontSize: "0.95rem" }}>
-              My career pivoted at the intersection of high-scale Java engineering and the GenAI wave. After building microservices handling 50M+ daily requests at Walmart and 10M+ daily transactions at PayPal, I recognized that the most impactful leverage point was no longer just infrastructure — it was intelligence.
+              My career pivoted at the intersection of high-scale Java engineering and the GenAI wave. After building microservices handling 50M+ daily requests at Walmart Global Tech and 10M+ daily transactions at PayPal, I recognized that the most impactful leverage point was no longer just infrastructure — it was intelligence.
             </p>
             <p className="font-body mb-5" style={{ color: "var(--muted)", fontSize: "0.95rem" }}>
-              At Walmart Health & Wellness, I shipped HIPAA-aligned AI solutions on GCP Vertex AI that reduced manual healthcare data mapping effort by 30% — replacing brittle rule-based transforms with LangGraph agent pipelines that observe, reason, and self-correct.
+              At Walmart Health & Wellness, I built HIPAA-compliant pharmacy prescription processing systems — handling real-time bidirectional JSON/XML transformation between pharmacy and insurance systems following NCPDP telecommunication standards. I used Python and GenAI APIs to automate prescription field validation — ensuring data accuracy before insurance submission across high-volume Kafka event pipelines on Kubernetes.
             </p>
             <p className="font-body" style={{ color: "var(--muted)", fontSize: "0.95rem" }}>
-              My edge is the full stack: I can architect the Kafka event pipeline, design the RAG retrieval layer, tune the agent prompts, observe LLM accuracy with LangSmith, and deploy to production Kubernetes — without handing off at any seam.
+              Outside work I build production AI systems — self-healing LangGraph agents, RAG pipelines with Pinecone and ChromaDB, multi-cloud AI pipelines across Azure/AWS/GCP, and agentic workflows using Anthropic Claude. My edge is the full stack: I can architect the Kafka event pipeline, design the RAG retrieval layer, tune the agent prompts, observe LLM accuracy with LangSmith, and deploy to production Kubernetes — without handing off at any seam.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-2">
