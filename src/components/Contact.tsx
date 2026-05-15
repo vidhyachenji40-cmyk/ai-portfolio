@@ -22,7 +22,7 @@ export default function Contact() {
             className="w-2 h-2 rounded-full animate-pulse"
             style={{ background: "var(--green)" }}
           />
-          Open to W2 Opportunities · H4-EAD · Immediate Start
+          Open to W2 Opportunities · Remote Only · H4-EAD · Immediate Start
         </div>
 
         <h2
@@ -42,11 +42,13 @@ export default function Contact() {
           style={{
             color: "var(--muted)",
             fontSize: "1rem",
-            maxWidth: "500px",
+            maxWidth: "520px",
             lineHeight: 1.8,
           }}
         >
-          Looking for an AI engineer who can own the full stack — from Kafka ingestion to LangGraph agents to Kubernetes deployment? Let&apos;s talk.
+          Looking for an AI automation engineer who builds GenAI pipelines, RAG systems,
+          and intelligent workflows — fully remote, available immediately, H4 EAD
+          (no sponsorship needed)? Let&apos;s talk.
         </p>
 
         {/* Contact cards */}
@@ -125,6 +127,10 @@ export default function Contact() {
           <a href="tel:+12094483663" style={{ color: "var(--accent)" }}>
             +1-209-448-3663
           </a>
+        </p>
+
+        <p className="font-mono text-xs mt-6" style={{ color: "var(--muted)" }}>
+          © 2026 Vidhya C · AI Automation Engineer · Built with Next.js
         </p>
       </div>
     </section>
