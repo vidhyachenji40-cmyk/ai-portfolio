@@ -42,7 +42,6 @@ export default function Hero() {
         ctx.fill();
       });
 
-      // Draw connections
       particles.forEach((a, i) => {
         particles.slice(i + 1).forEach((b) => {
           const dist = Math.hypot(a.x - b.x, a.y - b.y);
@@ -84,7 +83,6 @@ export default function Hero() {
         style={{ zIndex: 0, opacity: 0.7 }}
       />
 
-      {/* Bottom fade */}
       <div
         className="absolute bottom-0 left-0 right-0 h-40"
         style={{
@@ -107,7 +105,7 @@ export default function Hero() {
             className="w-2 h-2 rounded-full animate-pulse"
             style={{ background: "var(--green)" }}
           />
-          Available for W2 Roles · Remote · H4-EAD · Immediate Start
+          Available for W2 Roles · Remote Only · H4-EAD · Immediate Start
         </div>
 
         {/* Name */}
@@ -134,10 +132,10 @@ export default function Hero() {
             letterSpacing: "-0.01em",
           }}
         >
-          I build AI systems that{" "}
-          <span style={{ color: "var(--accent)" }}>think</span>,{" "}
-          <span style={{ color: "var(--green)" }}>act</span>, and{" "}
-          <span style={{ color: "#818cf8" }}>scale</span>
+          I automate complex workflows with{" "}
+          <span style={{ color: "var(--accent)" }}>AI</span>{" "}
+          — so your team focuses on{" "}
+          <span style={{ color: "var(--green)" }}>what matters</span>
         </p>
 
         <p
@@ -145,11 +143,12 @@ export default function Hero() {
           style={{
             fontSize: "1rem",
             color: "var(--muted)",
-            maxWidth: "560px",
+            maxWidth: "580px",
             lineHeight: 1.8,
           }}
         >
-          AI Automation Engineer building GenAI pipelines, RAG systems, and intelligent workflows — LangChain, LangGraph, n8n, Make · H4 EAD · Available Now
+          AI Automation Engineer building GenAI pipelines, RAG systems, and intelligent workflows
+          — LangChain, LangGraph, n8n, Make · 7+ years engineering · H4 EAD · Remote · Available Now
         </p>
 
         {/* CTAs */}
@@ -181,16 +180,16 @@ export default function Hero() {
         <div
           className="flex flex-wrap justify-center gap-px mx-auto rounded-lg overflow-hidden"
           style={{
-            maxWidth: "600px",
+            maxWidth: "640px",
             border: "1px solid var(--border)",
             background: "var(--border)",
           }}
         >
           {[
-            { value: "7+", label: "Years Exp." },
-            { value: "30%", label: "Effort Reduced" },
-            { value: "50M+", label: "Peak Req/Day" },
-            { value: "10M+", label: "Daily Txns" },
+            { value: "7+", label: "Years Eng." },
+            { value: "100K+", label: "Claims/Day (AI)" },
+            { value: "4", label: "AI Projects" },
+            { value: "H4 EAD", label: "No Sponsorship" },
           ].map((s) => (
             <div
               key={s.label}
