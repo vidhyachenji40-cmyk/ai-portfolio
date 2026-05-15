@@ -149,7 +149,7 @@ export default function Hero() {
             lineHeight: 1.8,
           }}
         >
-          Enterprise AI / GenAI Engineer with 7+ years transforming complex backend infrastructure into autonomous, production-grade AI pipelines — at Walmart, PayPal, and beyond.
+          AI Automation Engineer building GenAI pipelines, RAG systems, and intelligent workflows — LangChain, LangGraph, n8n, Make · H4 EAD · Available Now
         </p>
 
         {/* CTAs */}
