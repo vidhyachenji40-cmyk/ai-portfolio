@@ -1,9 +1,14 @@
 export default function About() {
   const highlights = [
     {
+      icon: "🔄",
+      title: "AI Automation & Low-Code",
+      desc: "Build end-to-end AI automation workflows using n8n, Make, Zapier, Flowise, and LangFlow — connecting LLMs to business systems without friction.",
+    },
+    {
       icon: "🤖",
       title: "Agentic AI Systems",
-      desc: "Architect multi-agent pipelines using LangGraph cyclic edges, enabling self-healing and autonomous decision loops in production.",
+      desc: "Architect multi-agent pipelines using LangGraph cyclic edges, enabling self-healing and autonomous decision loops that run without human intervention.",
     },
     {
       icon: "🔬",
@@ -14,11 +19,6 @@ export default function About() {
       icon: "☁️",
       title: "Cloud-Native AI",
       desc: "Deploy HIPAA-compliant AI on AWS Bedrock, GCP Vertex AI, and Azure AKS — integrating Claude, Gemini, and Titan models at scale.",
-    },
-    {
-      icon: "⚙️",
-      title: "Java Backbone",
-      desc: "Strong Spring Boot / Kafka microservices foundation enables end-to-end ownership from data ingestion to AI inference in production.",
     },
   ];
 
@@ -45,21 +45,29 @@ export default function About() {
                 letterSpacing: "-0.02em",
               }}
             >
-              Enterprise Java engineer{" "}
-              <span className="text-gradient">gone deep on AI</span>
+              AI Automation Engineer{" "}
+              <span className="text-gradient">building intelligent workflows</span>
             </h2>
             <p className="font-body mb-5" style={{ color: "var(--muted)", fontSize: "0.95rem" }}>
-              My career pivoted at the intersection of high-scale Java engineering and the GenAI wave. After building microservices handling 50M+ daily requests at Walmart Global Tech and 10M+ daily transactions at PayPal, I recognized that the most impactful leverage point was no longer just infrastructure — it was intelligence.
+              I build AI automation systems that eliminate manual work at scale. Starting from a strong
+              Java engineering foundation at Walmart, PayPal, and Intuit, I have shifted fully into
+              GenAI — building LangGraph agents, RAG pipelines, and multi-agent workflows that run
+              autonomously in production.
             </p>
             <p className="font-body mb-5" style={{ color: "var(--muted)", fontSize: "0.95rem" }}>
-              At Walmart Health & Wellness, I built HIPAA-compliant pharmacy prescription processing systems — handling real-time bidirectional JSON/XML transformation between pharmacy and insurance systems following NCPDP telecommunication standards. I used Python and GenAI APIs to automate prescription field validation — ensuring data accuracy before insurance submission across high-volume Kafka event pipelines on Kubernetes.
+              At Walmart Health &amp; Wellness, I contributed to HIPAA-compliant AI systems using
+              Python, LangGraph, and GCP Vertex AI to automate pharmacy prescription processing —
+              validating claim data across high-volume Kafka pipelines before insurance submission.
             </p>
             <p className="font-body" style={{ color: "var(--muted)", fontSize: "0.95rem" }}>
-              Outside work I build production AI systems — self-healing LangGraph agents, RAG pipelines with Pinecone and ChromaDB, multi-cloud AI pipelines across Azure/AWS/GCP, and agentic workflows using Anthropic Claude. My edge is the full stack: I can architect the Kafka event pipeline, design the RAG retrieval layer, tune the agent prompts, observe LLM accuracy with LangSmith, and deploy to production Kubernetes — without handing off at any seam.
+              My automation stack spans both code-first and low-code tools — LangChain, LangGraph,
+              RAG with Pinecone and ChromaDB, and platforms like n8n, Make, Zapier, and Flowise.
+              I focus on stable, remote roles where I can build and own AI systems end-to-end,
+              delivering real business value without the chaos.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-2">
-              {["LangChain", "LangGraph", "AWS Bedrock", "GCP Vertex AI", "Python", "Java 17", "Kafka", "Kubernetes"].map((t) => (
+              {["LangChain", "LangGraph", "n8n", "Make", "RAG", "Python", "AWS Bedrock", "GCP Vertex AI"].map((t) => (
                 <span key={t} className="tag">{t}</span>
               ))}
             </div>
